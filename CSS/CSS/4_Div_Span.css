@@ -1,0 +1,26 @@
+/* DIV SPAN */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: grey;
+}
+div {
+  color: red;
+  background: grey;
+}
+span {
+  text-transform: uppercase;
+}
+
+/*Class Selector*/
+.green {
+  color: green;
+}
+
+/* ID slector */
+#heading {
+  color: green;
+  background: black;
+}

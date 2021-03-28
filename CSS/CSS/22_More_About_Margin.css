@@ -1,0 +1,9 @@
+h1{
+    margin: 0px 0px 0px 0px;
+    background: red;
+}
+
+p{
+    background: blue;
+    /* margin: 0px 0px 0px 0px; */ /* Uncomment
+}

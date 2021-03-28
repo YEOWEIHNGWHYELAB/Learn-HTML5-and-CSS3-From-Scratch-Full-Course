@@ -1,0 +1,7 @@
+/*inline-block*/
+a {
+  font-size: 60px;
+  background: red;
+  margin: 100px; /*The margin will only appear to the left and right but not on the top and bottom!*/
+  display: inline-block;
+}

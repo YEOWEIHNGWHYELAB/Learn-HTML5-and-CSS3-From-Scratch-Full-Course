@@ -1,0 +1,14 @@
+/* Default Display Property */
+/*Block: Always starts with a new line and takes full width
+Inline: Does not start and only take up as much as content space
+*/
+.block {
+  background: blue;
+  color: white;
+  /*display: block;*/ /* By default, DIV is already a block so this does not make a difference! You can uncomment it and the result will be the same! */
+}
+.inline {
+  background: red;
+  color: white;
+  display: inline;
+}

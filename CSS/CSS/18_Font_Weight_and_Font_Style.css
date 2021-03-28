@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700i|Yesteryear&display=swap");
+/*
+font-weight 
+font-style
+*/
+body {
+  font-family: "Roboto", cursive;
+  font-style: italic;
+}
+.main {
+  font-family: "Yesteryear", sans-serif;
+}
+.subheading {
+  font-style: normal;
+}
+.one {
+  font-weight: 700; 
+  font-style: italic;
+}
+.two {
+  font-weight: 900;
+  font-style: oblique;
+}
+.three {
+  font-weight: 10;
+  font-style: normal;
+  background: red;
+}

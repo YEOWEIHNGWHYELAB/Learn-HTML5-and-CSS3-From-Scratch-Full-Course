@@ -1,0 +1,57 @@
+/*
+transform: translate(), scale(), rotate(), skew()
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: translateX(50%);
+}
+.two {
+  background: blue;
+  transform: translateY(-30px);
+}
+.three {
+  background: green;
+  transform: translate(200px, 300px);
+}
+.four {
+  background: cyan;
+  transform: scaleX(2);
+}
+.five {
+  background: black;
+  transform: scaleY(2);
+}
+.six {
+  background: purple;
+  transform: scale(1.5, 3);
+}
+.seven {
+  background: skyblue;
+  transform: rotateZ(135deg);
+}
+.eight {
+  background: skyblue;
+  transform: rotateY(45deg);
+}
+.nine {
+  background: skyblue;
+  transform: rotateX(20deg);
+}
+.ten {
+  background: silver;
+  transform: skewX(-20deg);
+}
+.eleven {
+  background: silver;
+  transform: skewY(-20deg);
+}
+.twelve {
+  background: pink;
+  transform: skew(40deg, 20deg);
+}

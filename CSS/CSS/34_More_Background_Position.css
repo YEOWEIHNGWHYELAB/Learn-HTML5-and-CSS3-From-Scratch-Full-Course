@@ -1,0 +1,21 @@
+/* background-position */
+div {
+  height: 1000px;
+  color: red;
+}
+.big-img {
+  background: url("./Big.jpg");
+  background-repeat: round;
+  background-size: cover;
+}
+.small-img {
+  border: 2px solid red;
+  background: url("./Small.jpg");
+  background-repeat: no-repeat;
+  background-position: 75% 80%;
+}
+.folder-img {
+  background: url("./Folder/Nigga.jpg");
+  background-size: contain;
+  background-position: center;
+}

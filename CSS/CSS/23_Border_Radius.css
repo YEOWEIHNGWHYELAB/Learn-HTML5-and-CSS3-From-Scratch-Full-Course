@@ -1,0 +1,15 @@
+h2{
+  background: red;
+  font-size: 900px;
+}
+
+h1{
+  margin-top: -50px;
+}
+
+p {
+    background: blue;
+    padding: 20px 40px 60px 80px;
+    margin: 100px 20px 20px 50px;  
+    border-radius: 50%;
+  }

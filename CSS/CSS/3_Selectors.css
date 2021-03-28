@@ -1,0 +1,38 @@
+/* ELEMENT SELECTORS */
+h1,
+h2 {
+  color: red;
+} /* Grouped elements */
+p {
+  color: grey;
+}
+body {
+  color: red;
+}
+
+/* ID selectors */
+#heading {
+  color: green;
+  background: black;
+}
+#subheading {
+  color: red;
+  background: gray;
+}
+
+/* Class selectors */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+  background: grey;
+}
+
+/* You can mix in the id selector */
+#title {
+  font-size: 40px;
+}
+.lowercase {
+  text-transform: lowercase;
+}

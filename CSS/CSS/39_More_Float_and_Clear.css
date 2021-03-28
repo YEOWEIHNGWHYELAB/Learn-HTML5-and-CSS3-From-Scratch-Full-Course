@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  float: left;
+  height: 400px;
+  width: 33.33%; /* This makes it such that each of the div element will occupy 33.33 percent of the width of the entire browser width! */
+}
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+}
+h1 {
+  clear: both; /* Try putting clear:right and see what happens! */
+}

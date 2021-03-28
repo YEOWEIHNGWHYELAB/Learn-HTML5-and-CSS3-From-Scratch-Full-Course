@@ -1,0 +1,18 @@
+.banner {
+  border: 5px solid red; /* Identify which is the border! */
+  padding: 10px;
+  overflow: hidden;
+}
+.one {
+  float: right;
+}
+.two {
+  float: left;
+  height: 200px;
+}
+p {
+  clear: left;
+}
+
+/* note that the image is bigger than the border because i'm lazy to crop the image... */
+/* you can only understand how the "clear" works if you have 2 different size image! */

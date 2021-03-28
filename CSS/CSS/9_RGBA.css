@@ -1,0 +1,20 @@
+/*RGBA 0-1 opacity/tranparency*/
+#first {
+  color: rgb(100, 123, 56);
+  background: rgba(0, 0, 0, 0.5);
+}
+#second {
+  color: rgb(45, 10, 34);
+  background: rgba(0, 0, 0, 0.25);
+}
+#third {
+  color: rgb(45, 10, 34);
+  background: rgba(0, 0, 0, 0);
+}
+#fourth {
+  color: rgb(45, 10, 34);
+  background: rgba(0, 0, 0, 1);
+}
+body {
+  background: rgba(10, 10, 200, 0.3);
+}

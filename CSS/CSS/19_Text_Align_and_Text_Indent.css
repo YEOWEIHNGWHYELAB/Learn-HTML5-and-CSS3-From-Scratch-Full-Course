@@ -1,0 +1,25 @@
+/*
+text-align
+text-indent
+*/
+body {
+  font-family: "Roboto", cursive;
+  text-align: right;
+}
+
+.main {
+  font-family: "Yesteryear", cursive;
+  text-align: center;
+}
+
+.subheading { /* Since nothing is mentioned in the .subheading, then it takes the inheritance from body! */
+  /*text-align: left;*/
+}
+
+.one {
+  text-indent: 120px;
+}
+
+.two {
+  text-align: left;
+}

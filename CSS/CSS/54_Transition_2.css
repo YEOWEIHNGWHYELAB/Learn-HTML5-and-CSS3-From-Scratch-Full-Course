@@ -1,0 +1,28 @@
+/*
+transistion:change over time
+transition-delay: 
+shorthand
+*/
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+  transition: all 4s, 5s;
+}
+.three {
+  background: green;
+  transition: background 3s 3s, border-radius 7s 1s;
+}
+.three:hover {
+  border-radius: 100%;
+  background: coral;
+}

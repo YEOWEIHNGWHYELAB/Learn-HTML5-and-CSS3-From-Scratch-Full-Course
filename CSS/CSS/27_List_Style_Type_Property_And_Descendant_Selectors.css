@@ -1,0 +1,45 @@
+/*
+Block: Top Bottom Margin Respected
+Inline: Top Bottom Margin Not Respected
+Mobile Navbar
+list-style-type:property
+descendant selectors
+*/
+/*
+div {
+  background: blue;
+  color: white;
+  padding: 20px;
+  margin: 20px;
+}
+*/
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/ 
+/* This part is commmented out so that you can see under the "ul li" section regarding what does list-style-type does (Line 28-30) */
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul li {
+  list-style-type: square;
+}
+ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background: #222;
+  color: #f15025;
+  display: block;
+  padding: 5px; /* Space between top and bottom */ /* But however you now just see the links overlap each other... */ /* line number 34 is required! */
+  margin: 10px 10px;
+}
+
+div li {
+  background: green;
+  list-style-type: circle;
+}

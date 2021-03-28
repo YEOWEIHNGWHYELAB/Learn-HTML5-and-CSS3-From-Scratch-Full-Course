@@ -1,0 +1,8 @@
+/* Decendants and Child Combinators */
+div h1 {
+  color: red;
+}
+
+div > h1 {
+  color: blue;
+}

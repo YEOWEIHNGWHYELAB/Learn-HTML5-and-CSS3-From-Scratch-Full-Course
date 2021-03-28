@@ -1,0 +1,9 @@
+/* ::First-line ::First-letter */
+p::first-line {
+  font-weight: bold;
+  font-style: italic;
+}
+p::first-letter {
+  font-size: 3rem;
+  font-style: normal;
+}

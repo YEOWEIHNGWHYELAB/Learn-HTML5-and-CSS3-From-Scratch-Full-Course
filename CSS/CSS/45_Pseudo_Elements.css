@@ -1,0 +1,69 @@
+/*
+pseudo elements ::before ::after CONTENT not element 
+content: '' --- required
+img --- does not work
+*/
+p::before {
+  content: "hello ";
+  display: block; /* Remember this? We learnt this previously! */
+  background: black;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+p::after {
+  content: " after";
+  display: block;
+  background: black;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+div {
+  width: 50vw;
+  margin: 100px auto; /* 100px top and bottom and auto for left and right */
+  border: 2px solid red;
+  position: relative;
+}
+img {
+  width: 100%;
+  display: block; /* To remove the small bottom space under the image */
+}
+div::before {
+  content: "";
+  border: 2px solid grey;
+  width: 100%;
+  height: 100%;
+  position: absolute; /* The first ancestor with position: relative, that is why it looks so big... So just add position: relative to the div part... */
+  box-sizing: border-box; /* You need this to make the width and height 100% otherwise a little bit will be popping out! */
+  top: -40px;
+  left: -40px;
+  z-index: -2; /* If not it will be overlapping the image! */
+}
+div::after {
+  content: "";
+  background: grey;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+}
+/*
+img::before {
+  content: "hello";
+}
+This does not work! You can see it in Dev tools though
+*/
+
+/* This will cause your back ground and the border to disappear when you hover over the image! */
+div:hover::after,
+div:hover::before {
+  top: 0; 
+  left: 0;
+}
+/* So when you hover over, the line 66-67 will be set! */

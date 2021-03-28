@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700i|Yesteryear&display=swap");
+/*google font*/
+body {
+  font-family: "Roboto", cursive;
+}
+h1 {
+  font-family: "Yesteryear", sans-serif;
+}

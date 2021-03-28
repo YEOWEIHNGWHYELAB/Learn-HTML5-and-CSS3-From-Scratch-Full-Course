@@ -1,0 +1,39 @@
+/* Last Rule And Specificity * Universal Selector */
+
+/* Last Rule */
+p {
+  color: blue;
+}
+/* say if you have already mentioned that p element selected and style the color as blue and then you continue on with another whole chunk of code
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+And then you mentioned again that p element selected and this time making it red and so this one will be applied. Because things are going according to the last rule! 
+*/
+p {
+  color: red;
+
+  /* Specificity */
+}
+.red {
+  color: red;
+}
+p {
+  color: green;
+}
+
+/* Universal Selector */
+p {
+  color: red;
+}
+* {
+  color: blue;
+}

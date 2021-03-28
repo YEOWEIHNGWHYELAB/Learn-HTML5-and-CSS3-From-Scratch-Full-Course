@@ -1,0 +1,11 @@
+/* :hover */
+p:hover {
+  color: red;
+}
+.header {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none; /* remove the underline */
+}

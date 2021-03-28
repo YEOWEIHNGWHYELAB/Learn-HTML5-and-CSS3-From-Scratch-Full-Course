@@ -1,0 +1,28 @@
+/*
+transistion:change over time
+trainsistion-property:
+transistion-duration:
+*/
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+div:hover {               /* All Div when Hovered over will have background changed to coral! */
+  background: coral;
+}
+.one {
+  background: red;
+}
+.two {
+  background: blue;
+}
+.three {
+  background: green;
+  transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+  transition-delay: 3s;
+}
+.three:hover {
+  border-radius: 50%;
+}

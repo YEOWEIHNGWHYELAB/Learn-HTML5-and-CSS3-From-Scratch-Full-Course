@@ -1,0 +1,33 @@
+/*
+text-shadow
+box-shadow
+*/
+h1 {
+  text-shadow: 1px 1px 3px red;
+}
+
+h2 {
+  text-shadow: 5px 5px 4px rgba(150, 150, 150, 0.77);
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 3px 5px 5px green;
+}
+
+.box_1 {
+  width: 200px;
+  height: 100px;
+  background: blue;
+  margin: 20px;
+  box-shadow: 3px 5px 5px green;
+}
+
+.box_1:hover {
+  -webkit-box-shadow: inset 100px -51px 42px 48px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: inset 100px -51px 42px 48px rgba(0, 0, 0, 0.64);
+  box-shadow: inset 100px -51px 42px 48px rgba(0, 0, 0, 0.64);
+}
